@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||||       MASTER STYLESHEET FOR HUMANITY      ||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR ELI MSAMARIA MWEMA TANZANIA  ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -109,7 +109,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding: 80px 0;
 }
 .sec-padd2 {
-  padding: 80px 0 30px;
+  padding: 20px 0 20px;
 }
 .sec-padd3 {
   padding: 80px 0 50px;
@@ -235,7 +235,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .section-title {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 .section-title h2 {
   position: relative;
@@ -2538,11 +2538,11 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 ***/
 .why-chooseus {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   background: #f9f9f9;
 }
 .why-chooseus .item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   transition: .5s ease;
 }
 .why-chooseus .item:hover {
@@ -2562,7 +2562,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 20px;
   font-weight: 700;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   transition: .5s ease;
 }
 .why-chooseus .item:hover h4 {
