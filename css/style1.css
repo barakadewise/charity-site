@@ -672,9 +672,108 @@ textarea {
     color: #121d2f;
 }
 
-.default-form .dropdown-menu>li>a:hover {
-    background-color: #57ccf0 !important;
-    color: #fff !important;
+.default-form {
+    position: relative;
+}
+
+
+.default-form .form-box {
+    position: relative;
+}
+
+.comment-form .form-box {
+    padding: 25px 25px 0px 25px;
+}
+
+.default-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.default-form .comment-form .form-box .form-group {
+    margin-bottom: 25px;
+}
+
+.default-form.form-box .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.default-form.form-box .row .form-group {
+    padding: 0px 0px;
+}
+
+.default-form .form-group .field-label {
+    display: block;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #232323;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.default-form .form-group .field-label sup {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+.default-form p {
+    margin-bottom: 6px;
+}
+
+.default-form input[type="text"],
+.default-form input[type="email"],
+.default-form input[type="password"],
+.default-form input[type="number"],
+.default-form select,
+.default-form textarea {
+    display: block;
+    width: 100%;
+    line-height: 24px;
+    height: 50px;
+    font-size: 16px;
+    box-shadow: none;
+    border: 1px solid #f4f4f4;
+    padding: 12px 15px;
+    background: #fff;
+    border-radius: 0px;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.default-form textarea {
+    height: 115px;
+}
+
+.default-form .bootstrap-select {
+    border: 1px solid #f4f4f4;
+    background: #f7f7f7;
+    color: #a2a2a2;
+    padding: 10px 0;
+    font-size: 16px;
+    height: auto;
+}
+
+.default-form .btn-group.open .dropdown-toggle {
+    box-shadow: none;
+}
+
+.default-form .btn-group.open .dropdown-toggle:focus {
+    border: none;
+    outline: none;
+}
+
+.default-form .bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;
+}
+
+.default-form .dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color:#57ccf0;
+    color: #fff;
 }
 
 .default-form .form-control:focus {
@@ -682,16 +781,73 @@ textarea {
     box-shadow: none;
 }
 
+
+
 .select-box .btn:after {
     position: absolute;
     content: "\f107";
     font-family: FontAwesome;
     font-size: 16px;
-    color: #57ccf0;
+    color: #ff5722;
     width: 20px;
     right: 15px;
     top: 50%;
     margin-top: -11px;
+}
+
+
+
+.default-form .bootstrap-select {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+}
+
+.default-form .g-select {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+}
+
+.default-form .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    color: #949494;
+    padding: 13px 15px;
+    border: 1px solid #eee;
+
+}
+
+.default-form .bs-caret {
+    display: none;
+}
+
+.default-form .dropdown-menu {
+    border-radius: 0px;
+    padding: 0px;
+    top: 50px;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: .4s ease;
+}
+
+.default-form .bootstrap-select.open .dropdown-menu {
+    transform: scaleY(1);
+    transition: .4s ease;
+}
+
+.default-form .dropdown-menu>li>a {
+    padding: 8px 15px;
+}
+
+.default-form .dropdown-menu>li>a:focus {
+    background-color: #fff;
+    color: #303030;
+}
+
+.default-form .dropdown-menu>li>a:hover {
+    background-color: #ff5722 !important;
+    color: #fff !important;
 }
 
 /*placeholder*/
