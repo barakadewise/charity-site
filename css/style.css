@@ -412,8 +412,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
 }
-.accordion .acc-btn.active p {
-}
+
 
 .accordion .acc-btn.pr {
     position: relative;
